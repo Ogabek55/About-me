@@ -1,0 +1,70 @@
+.hello {
+  background-color: rgb(192, 193, 189);
+}
+#profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+header {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+h1 {
+  background-color: rgb(227, 227, 239);
+  background-position: center;
+  text-align: center;
+}
+body {
+  background-color: rgb(219, 234, 241);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(53, 51, 51);
+  font-weight: 400;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border: 3px solid #000;
+  margin-bottom: 20px;
+}
+
+.headre3 {
+  width: 55%;
+  float: left;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+}
+.feature__button {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+}
+.home__span {
+  font-size: 25px;
+  color: blue;
+  padding: 15px;
+}
+@media screen and (max-width: 450px) {
+  .feature {
+    display: flex;
+    justify-content: space-between;
+  }
+  .media__img {
+    width: 100%;
+  }
+}
