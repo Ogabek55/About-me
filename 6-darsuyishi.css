@@ -39,13 +39,18 @@ a {
 }
 
 .headre3 {
-  width: 55%;
-  float: left;
+  width: 60%;
+  float: center;
+  margin-left: 60px;
 }
 
 .feature {
+  text-align: center;
+}
+.feature__home {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
 }
 .feature__button {
   color: white;
@@ -63,6 +68,14 @@ a {
   .feature {
     display: flex;
     justify-content: space-between;
+  }
+  .media__img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 150px) {
+  .feature {
+    display: flex;
   }
   .media__img {
     width: 100%;
