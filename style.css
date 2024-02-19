@@ -64,6 +64,10 @@ a {
   color: blue;
   padding: 15px;
 }
+.media__img {
+  width: 45%;
+  gap: 10px;
+}
 @media screen and (max-width: 450px) {
   .feature {
     display: flex;
