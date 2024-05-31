@@ -52,12 +52,15 @@ a {
   justify-content: center;
   width: 100%;
 }
-.feature__button {
+.ul__button {
   color: white;
   background-color: blue;
   border: none;
   border-radius: 15px;
-  padding: 5px;
+  padding: 10px;
+}
+.ul__button:active {
+  background-color: red;
 }
 .home__span {
   font-size: 25px;
